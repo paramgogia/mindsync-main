@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, Send, Minimize2, Brain } from 'lucide-react';
 
 // Note: In a real application, store this in .env file
-const GEMINI_API_KEY = 'AIzaSyBmZcIOLIY8YfOtR4mTDi9tMuml7mFktP4';
+const GEMINI_API_KEY = 'tes';
 
 const WellnessBot = () => {
   const [isOpen, setIsOpen] = useState(false);

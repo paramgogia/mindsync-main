@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Initialize Google Generative AI
-const GEMINI_API_KEY = 'AIzaSyCFKswhga9q7KF-qZ4ZzwcTxZRtrg6sb7Y';
+const GEMINI_API_KEY = 'tes';
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 const Analytics = () => {

@@ -11,7 +11,7 @@ const PersonalLifeAIAgent = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const chatRef = useRef(null);
 
-  const GEMINI_API_KEY = 'AIzaSyDLPdXOcGiDZ3SGuIkP7-6NaUXrylbnFR0';
+  const GEMINI_API_KEY = 'tes';
 
   useEffect(() => {
     if (chatRef.current) {

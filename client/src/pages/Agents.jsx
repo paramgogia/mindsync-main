@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Calendar, Brain, Users, Mail, X } from 'lucide-react';
 
 // Updated API call function with correct endpoint
-const API_KEY = 'AIzaSyDLPdXOcGiDZ3SGuIkP7-6NaUXrylbnFR0';
+const API_KEY = 'tes';
 
 const callGeminiAPI = async (prompt) => {
     // Assuming API_KEY is defined in the scope (e.g., in a .env file or config)

@@ -5,7 +5,7 @@ import { createTFIDF, classifyQuery } from '../components/vector';
 
 
 // Initialize the Gemini API
-const GEMINI_API_KEY = 'AIzaSyCFKswhga9q7KF-qZ4ZzwcTxZRtrg6sb7Y'; 
+const GEMINI_API_KEY = 'tes'; 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 const AISchedulerCore = ({ 
